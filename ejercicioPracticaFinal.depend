@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1753500733 source:c:\users\usuario\desktop\algoritmo y estructura de datos\un0\ejerciciopracticafinal\cola.c
+	<stdio.h>
+	<stdlib.h>
+	"cola.h"
+
+1753496614 source:c:\users\usuario\desktop\algoritmo y estructura de datos\un0\ejerciciopracticafinal\estadio.c
+
+1753500962 source:c:\users\usuario\desktop\algoritmo y estructura de datos\un0\ejerciciopracticafinal\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1753495636 source:c:\users\usuario\desktop\algoritmo y estructura de datos\un0\ejerciciopracticafinal\persona.c
+
+1753497972 source:c:\users\usuario\desktop\algoritmo y estructura de datos\un0\ejerciciopracticafinal\nodo.c
+	<stdio.h>
+	<stdlib.h>
+	"nodo.h"
+
+1753497951 c:\users\usuario\desktop\algoritmo y estructura de datos\un0\ejerciciopracticafinal\nodo.h
+
+1753500724 c:\users\usuario\desktop\algoritmo y estructura de datos\un0\ejerciciopracticafinal\cola.h
+	"nodo.h"
+

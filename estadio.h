@@ -1,0 +1,6 @@
+#ifndef ESTADIO_H_INCLUDED
+#define ESTADIO_H_INCLUDED
+
+
+
+#endif // ESTADIO_H_INCLUDED
