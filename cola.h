@@ -16,6 +16,8 @@ void setUltimoCola(ColaPtr cola, NodoPtr nuevoUltimo);
 void encolar(ColaPtr cola, DatoPtr dato);
 DatoPtr desencolar(ColaPtr cola);
 
+void mostrarCola(ColaPtr cola, void(mostrar)(DatoPtr));
+
 ColaPtr duplicarCola(ColaPtr cola);
 void liberarCola(ColaPtr cola);
 

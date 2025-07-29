@@ -41,9 +41,29 @@ void encolar(ColaPtr cola, DatoPtr dato){ ///INSERTAR ULTIMO
     cola->ultimo = nodoAInsertar;
 };
 
-//DatoPtr desencolar(ColaPtr cola){ ///ELIMINAR PRIMERO
-//
-//};
+DatoPtr desencolar(ColaPtr cola){ ///ELIMINAR PRIMERO
+    NodoPtr nodoAEliminar = cola->primero;
+    if(nodoAEliminar==NULL){
+        return NULL;
+    }
+    cola->primero = getSiguiente(nodoAEliminar);
+    if(cola->primero == NULL){
+        cola->ultimo = NULL;
+    }
+    DatoPtr dato = getDato(nodoAEliminar);
+    liberarNodo(nodoAEliminar);
+    return dato;
+};
+
+void mostrarCola(ColaPtr cola, void(mostrar)(DatoPtr)){
+    NodoPtr actual = cola->primero;
+    printf("\n COLA \n");
+    while(actual!=NULL){
+        mostrar(getDato(actual));
+        actual = getSiguiente(actual);
+    }
+    printf("\n");
+};
 
 ColaPtr duplicarCola(ColaPtr cola);
 

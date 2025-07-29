@@ -1,16 +1,26 @@
 # depslib dependency file v1.0
-1753500733 source:c:\users\usuario\desktop\algoritmo y estructura de datos\un0\ejerciciopracticafinal\cola.c
+1753668138 source:c:\users\usuario\desktop\algoritmo y estructura de datos\un0\ejerciciopracticafinal\cola.c
 	<stdio.h>
 	<stdlib.h>
 	"cola.h"
 
-1753496614 source:c:\users\usuario\desktop\algoritmo y estructura de datos\un0\ejerciciopracticafinal\estadio.c
-
-1753500962 source:c:\users\usuario\desktop\algoritmo y estructura de datos\un0\ejerciciopracticafinal\main.c
+1753668168 source:c:\users\usuario\desktop\algoritmo y estructura de datos\un0\ejerciciopracticafinal\estadio.c
 	<stdio.h>
 	<stdlib.h>
+	<string.h>
+	"estadio.h"
 
-1753495636 source:c:\users\usuario\desktop\algoritmo y estructura de datos\un0\ejerciciopracticafinal\persona.c
+1753667964 source:c:\users\usuario\desktop\algoritmo y estructura de datos\un0\ejerciciopracticafinal\main.c
+	<stdio.h>
+	<stdlib.h>
+	"estadio.h"
+	"persona.h"
+
+1753667100 source:c:\users\usuario\desktop\algoritmo y estructura de datos\un0\ejerciciopracticafinal\persona.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"persona.h"
 
 1753497972 source:c:\users\usuario\desktop\algoritmo y estructura de datos\un0\ejerciciopracticafinal\nodo.c
 	<stdio.h>
@@ -19,6 +29,13 @@
 
 1753497951 c:\users\usuario\desktop\algoritmo y estructura de datos\un0\ejerciciopracticafinal\nodo.h
 
-1753500724 c:\users\usuario\desktop\algoritmo y estructura de datos\un0\ejerciciopracticafinal\cola.h
+1753666500 c:\users\usuario\desktop\algoritmo y estructura de datos\un0\ejerciciopracticafinal\cola.h
 	"nodo.h"
+
+1753664255 c:\users\usuario\desktop\algoritmo y estructura de datos\un0\ejerciciopracticafinal\persona.h
+	"nodo.h"
+
+1753668048 c:\users\usuario\desktop\algoritmo y estructura de datos\un0\ejerciciopracticafinal\estadio.h
+	"cola.h"
+	"persona.h"
 
